@@ -1,4 +1,5 @@
-FROM elixirprotocol/validator:testnet-1
+FROM elixirprotocol/validator:testnet-2
 
-ENV ADDRESS=
-ENV PRIVATE_KEY=
+ENV ADDRESS=0x
+ENV PRIVATE_KEY=0x
+ENV VALIDATOR_NAME=AnonValidator
