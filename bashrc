@@ -29,4 +29,4 @@ unset rc
 export SSH_NAME='tmhb-?'
 export EXCHANGE='?'
 export PAIRS='?|?'
-export PS1="[\e[1;31m\]$SSH_NAME\e[1;37m\]@\e[1;32m\]$EXCHANGE \e[1;34m\]$PAIRS\e[0m\]]$ "
+export PS1="[\e[1;31m\]$SSH_NAME\e[1;37m\]@\e[1;32m\]$EXCHANGE \e[1;34m\]$PAIRS\e[0m\] \W]$ "
