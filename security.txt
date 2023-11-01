@@ -1,0 +1,5 @@
+Contact: mailto: security@elixir.finance
+Expires: 2024-10-31T16:52:00.000Z
+Preferred-Languages: en
+Canonical: https://elixir.finance/.well-known/security.txt
+Policy: https://immunefi.com/bounty/elixir/
