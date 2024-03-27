@@ -24,5 +24,8 @@ echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCoCD7/kRA5lGMWot309CPb6cgKV5Y2NOKYj/q
 # Wesley
 echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFslnCLCQLVW7xGMzzlrRZZH+bT8MAMPNp20ubOGkZI >> /home/ec2-user/.ssh/authorized_keys
 
+# Shaun
+echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC02yt+nejRuE1dE8gHbZxinAcOFZE/PSKuEBijET8V4 shaun.khundker@gmail.com >> /home/ec2-user/.ssh/authorized_keys
+
 curl https://files.elixir.finance/bashrc -o ~/.bashrc
 
