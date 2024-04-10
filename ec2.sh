@@ -28,5 +28,8 @@ echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBFslnCLCQLVW7xGMzzlrRZZH+bT8MAMPNp20ub
 echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC02yt+nejRuE1dE8gHbZxinAcOFZE/PSKuEBijET8V4 shaun.khundker@gmail.com >> /home/ec2-user/.ssh/authorized_keys
 echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE3iAT6kJZ94JyvAy1z4qRWrVv/rTBuSgMlNvtj0v2F9 shaun.khundker@gmail.com >> /home/ec2-user/.ssh/authorized_keys
 
+# Adam
+echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILNo5gn6GddhCcIni5360Xv+hNAqN5hfv6HtOHqBxdKU >> /home/ec2-user/.ssh/authorized_keys
+
 curl https://files.elixir.finance/bashrc -o ~/.bashrc
 
