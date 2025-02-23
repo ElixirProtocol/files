@@ -6,6 +6,8 @@ services:
       volumes:
         - grafana-data:/var/lib/grafana
         - ./grafana/datasources.yml:/etc/grafana/provisioning/datasources/datasources.yml
+        - ./grafana/dashboards.yml:/etc/grafana/provisioning/dashboards/dashboards.yml
+        - ./grafana/dashboards:/var/lib/grafana/dashboards
       env_file:
         - ./grafana/.env
         
